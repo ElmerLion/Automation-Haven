@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d342b3d7e335bc4dbf0ffad79ac86e6, type: 3}
+  m_Name: IronOre
+  m_EditorClassIdentifier: 
+  nameString: Iron Ore
+  isLiquid: 0
+  chemicalSymbol: Fe
+  prefab: {fileID: 2271301006088965446, guid: 8da86eae90f81a145a578f50bfed5b3f, type: 3}
+  sprite: {fileID: 21300000, guid: be0b797bef71c5347a88f7aa038b75de, type: 3}
+  rarity: 1
+  weight: 2
+  price: 4
+  stackSize: 100
+  itemCategory: 2
+  resourceNodePrefab: {fileID: 1378741835698948188, guid: ea9ebee33b741a8478af621aeb24295b,
+    type: 3}

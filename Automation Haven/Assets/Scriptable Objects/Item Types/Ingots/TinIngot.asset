@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d342b3d7e335bc4dbf0ffad79ac86e6, type: 3}
+  m_Name: TinIngot
+  m_EditorClassIdentifier: 
+  nameString: Tin Ingot
+  isLiquid: 0
+  chemicalSymbol: 
+  prefab: {fileID: 2664005508559734960, guid: 4126a57827f832e4bbd3e9986be34141, type: 3}
+  sprite: {fileID: 21300000, guid: e164aebdb84979546885a81c9f744403, type: 3}
+  rarity: 2
+  weight: 5
+  price: 9
+  stackSize: 100
+  itemCategory: 3
+  resourceMaterial: {fileID: 0}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d342b3d7e335bc4dbf0ffad79ac86e6, type: 3}
+  m_Name: PC
+  m_EditorClassIdentifier: 
+  nameString: PC
+  unlockedAtLevel: 15
+  isMilestoneAward: 1
+  chemicalSymbol: 
+  prefab: {fileID: 2869493284429746265, guid: f051f5b295da55c4385a3acc0692385d, type: 3}
+  sprite: {fileID: 21300000, guid: b39035496be95a848a45823a704a31ad, type: 3}
+  rarity: 8
+  weight: 20
+  price: 176
+  itemCategory: 4
+  resourceMaterial: {fileID: 0}

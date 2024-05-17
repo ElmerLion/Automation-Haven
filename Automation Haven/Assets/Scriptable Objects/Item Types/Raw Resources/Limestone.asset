@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d342b3d7e335bc4dbf0ffad79ac86e6, type: 3}
+  m_Name: Limestone
+  m_EditorClassIdentifier: 
+  nameString: Limestone
+  isLiquid: 0
+  chemicalSymbol: CaCO<sub>3
+  prefab: {fileID: 2271301006088965446, guid: 56f1f4859541ba345bd4ebaa14ac8878, type: 3}
+  sprite: {fileID: 21300000, guid: 114b0e0d7e6b8064fb660511eaa66858, type: 3}
+  rarity: 1
+  weight: 2
+  price: 3
+  stackSize: 100
+  itemCategory: 2
+  resourceNodePrefab: {fileID: 1378741835698948188, guid: bf034b265b8d4a84dae5877b953dd782,
+    type: 3}

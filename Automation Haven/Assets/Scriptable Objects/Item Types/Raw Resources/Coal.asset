@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d342b3d7e335bc4dbf0ffad79ac86e6, type: 3}
+  m_Name: Coal
+  m_EditorClassIdentifier: 
+  nameString: Coal
+  isLiquid: 0
+  chemicalSymbol: C
+  prefab: {fileID: 2271301006088965446, guid: 65ccdb2135ddb12419916edf8d7a785b, type: 3}
+  sprite: {fileID: 21300000, guid: 0e4b2ba27b471724198cbdcda846a9b7, type: 3}
+  rarity: 1
+  weight: 2
+  price: 2
+  stackSize: 10
+  itemCategory: 2
+  resourceNodePrefab: {fileID: 1378741835698948188, guid: 5aae43e0f26c3984aa54c9bbfc0d0d68,
+    type: 3}
