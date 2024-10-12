@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa761cc01424194099481c90ece698e, type: 3}
+  m_Name: CoalPowerPlant
+  m_EditorClassIdentifier: 
+  nameString: Coal Power Plant
+  width: 3
+  height: 3
+  buildingSprite: {fileID: 21300000, guid: 7bfbe86d07828ad459868a36deb01031, type: 3}
+  prefab: {fileID: 9093943874550368844, guid: c6410e9db41a4bc40bed1e7c6be431c3, type: 3}
+  visual: {fileID: 7506894567691777197, guid: 1cbd47409c11f4b4e876665d2e6f130f, type: 3}
+  isFurnace: 0
+  storageData:
+    storageAmount: 0
+  resourceGeneratorData:
+    baseSpeedTimerMax: 0
+    resourceDetectionRadius: 0
+    maxResourceAmount: 0
+  categoryData:
+    category: 3
+  buildingCostList:
+    requiredResources:
+    - itemSO: {fileID: 11400000, guid: 8c52634b5351a34468acfc15c14f4233, type: 2}
+      amount: 20
+    - itemSO: {fileID: 11400000, guid: fd4781b371a54214cae1674c73e65d69, type: 2}
+      amount: 20
+    - itemSO: {fileID: 11400000, guid: 001ac488f04b74e4ab17d8c7517fc46a, type: 2}
+      amount: 20
+  powerData:
+    powerProduction: 60
+    powerUsage: 0
+    powerStorage: 1000
+    productionRate: 2
+    requiredItem: {fileID: 11400000, guid: 954d36a8bd47bb04a9f86aafca5fc89a, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac52556c92a96dd4ba72fa165f5f823b, type: 3}
+  m_Name: MachineGun
+  m_EditorClassIdentifier: 
+  nameString: 
+  craftingTime: 120
+  craftingMachineType: 4
+  input:
+  - itemSO: {fileID: 11400000, guid: ab143e90128fd0f4e9c77277aacee1ee, type: 2}
+    amount: 1
+  - itemSO: {fileID: 11400000, guid: 2bea4e89a2b51a541aaff214c536a566, type: 2}
+    amount: 1
+  output:
+  - itemSO: {fileID: 11400000, guid: fc18d772f9f8c3846aeae9757df00216, type: 2}
+    amount: 1

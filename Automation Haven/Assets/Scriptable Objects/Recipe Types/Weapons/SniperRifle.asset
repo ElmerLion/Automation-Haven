@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac52556c92a96dd4ba72fa165f5f823b, type: 3}
+  m_Name: SniperRifle
+  m_EditorClassIdentifier: 
+  nameString: 
+  craftingTime: 140
+  craftingMachineType: 4
+  input:
+  - itemSO: {fileID: 11400000, guid: e70cf9efa35ef5c44864d99805f0e370, type: 2}
+    amount: 1
+  - itemSO: {fileID: 11400000, guid: e404215c89165574992491d94ea3fc39, type: 2}
+    amount: 1
+  - itemSO: {fileID: 11400000, guid: 95234ab6c09447b4493ebe92bef9b5a7, type: 2}
+    amount: 1
+  output:
+  - itemSO: {fileID: 11400000, guid: ce763b8cd2d7c974b9e5976bb0b0fa60, type: 2}
+    amount: 1

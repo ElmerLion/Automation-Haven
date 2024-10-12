@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac52556c92a96dd4ba72fa165f5f823b, type: 3}
+  m_Name: SteelIngot
+  m_EditorClassIdentifier: 
+  nameString: 
+  craftingTime: 9
+  craftingMachineType: 2
+  input:
+  - itemSO: {fileID: 11400000, guid: 954d36a8bd47bb04a9f86aafca5fc89a, type: 2}
+    amount: 2
+  - itemSO: {fileID: 11400000, guid: c57dcd724ee117946921962576de5b18, type: 2}
+    amount: 1
+  output:
+  - itemSO: {fileID: 11400000, guid: 8c52634b5351a34468acfc15c14f4233, type: 2}
+    amount: 1

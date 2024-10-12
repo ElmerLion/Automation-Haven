@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3919e2e152090e541b0dd89a856ab9ca, type: 3}
+  m_Name: BlindersCompany
+  m_EditorClassIdentifier: 
+  companyNames:
+  - Blinders
+  companyDescription: 
+  companyLogo: {fileID: 21300000, guid: ac04b0f23f5b9564f9317d936e822174, type: 3}
+  playerReputationMultiplier: -2
+  playerRewardMultiplier: 2
+  companyWorldReputation: -40
+  reputationUnlockThreshold: -20
+  startingReputationWithPlayer: -30
+  companyType: 1
+  timeModifier: 1.2
+  startingContractItems:
+  - {fileID: 11400000, guid: 334bdb3ab70ebf94384258b1643c002d, type: 2}
+  - {fileID: 11400000, guid: c57dcd724ee117946921962576de5b18, type: 2}
+  - {fileID: 11400000, guid: 133978b68d287f34ca7d280eb72b449d, type: 2}
+  - {fileID: 11400000, guid: 969f85e16e118514287d337f1b6eb178, type: 2}
+  - {fileID: 11400000, guid: 922f5968603fffa40b84299642640d1b, type: 2}
+  unlockableProducts:
+  - {fileID: 11400000, guid: ce763b8cd2d7c974b9e5976bb0b0fa60, type: 2}
+  notes: Sketchy gun dealers?

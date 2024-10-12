@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d354bcc84465140a6e1df15fb77ad6, type: 3}
+  m_Name: HomeFurniture
+  m_EditorClassIdentifier: 
+  nameString: Home Furniture
+  description: Produce home furniture products to sell to companies.
+  researchCost: 100
+  slotIndex: 2
+  researchCategory: 2
+  icon: {fileID: 21300000, guid: ae55632d0e4a3ea42bf1c60f737d2d19, type: 3}
+  unlockedBuildings: []
+  unlockedRecipes:
+  - {fileID: 11400000, guid: fa388299b75f1004dba6b5642b00a0f6, type: 2}
+  - {fileID: 11400000, guid: 743c52c8d12c7214296384abd6d61092, type: 2}
+  - {fileID: 11400000, guid: 0a7f323e2dc6dac42a49a6331dbb80e2, type: 2}
+  prerequisiteResearchList: []

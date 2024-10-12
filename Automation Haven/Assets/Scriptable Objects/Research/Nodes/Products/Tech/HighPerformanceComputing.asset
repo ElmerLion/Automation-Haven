@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d354bcc84465140a6e1df15fb77ad6, type: 3}
+  m_Name: HighPerformanceComputing
+  m_EditorClassIdentifier: 
+  nameString: Advanced Computing
+  description: Produce more advanced tech products to sell to companies.
+  researchCost: 175
+  slotIndex: 1
+  researchCategory: 2
+  icon: {fileID: 21300000, guid: cbaffd8c246dd064e8b9ebe386ef2eff, type: 3}
+  unlockedBuildings: []
+  unlockedRecipes:
+  - {fileID: 11400000, guid: 62165074276409b43a0c5528b521629d, type: 2}
+  - {fileID: 11400000, guid: 1f7833d48c377624db95b880d9e0db77, type: 2}
+  - {fileID: 11400000, guid: b0a1d96995a22da448ccdf02c022ca23, type: 2}
+  prerequisiteResearchList:
+  - {fileID: 11400000, guid: 1270f4d7cae8e194a8378270cba094ee, type: 2}

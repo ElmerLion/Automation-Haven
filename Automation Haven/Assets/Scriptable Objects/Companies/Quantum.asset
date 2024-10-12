@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3919e2e152090e541b0dd89a856ab9ca, type: 3}
+  m_Name: Quantum
+  m_EditorClassIdentifier: 
+  companyNames:
+  - Quantum
+  companyDescription: Experiments are the future
+  companyLogo: {fileID: 21300000, guid: 2dc854e122010154eac9566ae819d492, type: 3}
+  playerReputationMultiplier: 1
+  playerRewardMultiplier: 1
+  companyWorldReputation: 85
+  reputationUnlockThreshold: 90
+  timeModifier: 1
+  startingContractItems:
+  - {fileID: 11400000, guid: 0f21c670439665d4494b62f366d2aec9, type: 2}
+  - {fileID: 11400000, guid: 2083c92390d84af43b006cf28985797f, type: 2}
+  unlockableProducts:
+  - {fileID: 11400000, guid: 091deac4d988ba14d82959398d502ba1, type: 2}
+  notes: Requests random stuff for their experiments

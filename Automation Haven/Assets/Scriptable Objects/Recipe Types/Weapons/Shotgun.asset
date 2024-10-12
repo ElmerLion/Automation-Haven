@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac52556c92a96dd4ba72fa165f5f823b, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  nameString: 
+  craftingTime: 100
+  craftingMachineType: 4
+  input:
+  - itemSO: {fileID: 11400000, guid: 44810a1ed5f679d4b880e3535f1b48f6, type: 2}
+    amount: 1
+  - itemSO: {fileID: 11400000, guid: a66b4fb535d5d0242a621a4a3bc98318, type: 2}
+    amount: 1
+  - itemSO: {fileID: 11400000, guid: 1c1128473ad7d134099802afb8c3e6fd, type: 2}
+    amount: 1
+  output:
+  - itemSO: {fileID: 11400000, guid: 969f85e16e118514287d337f1b6eb178, type: 2}
+    amount: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d354bcc84465140a6e1df15fb77ad6, type: 3}
+  m_Name: AdvancedStorage
+  m_EditorClassIdentifier: 
+  nameString: Advanced Storage
+  description: Store your items in a bigger storage.
+  researchCost: 30
+  slotIndex: 3
+  researchCategory: 1
+  icon: {fileID: 21300000, guid: 35f5265f2a4b72640a78c6776383c934, type: 3}
+  unlockedBuildings:
+  - {fileID: 11400000, guid: 8a0c1d92fc8569749b714d274c4bb6dd, type: 2}
+  unlockedRecipes: []
+  prerequisiteResearchList:
+  - {fileID: 11400000, guid: 6553f20ab678a4840ad9449dea965511, type: 2}

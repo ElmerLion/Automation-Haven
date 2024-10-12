@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d342b3d7e335bc4dbf0ffad79ac86e6, type: 3}
+  m_Name: Petroleum
+  m_EditorClassIdentifier: 
+  nameString: Petroleum
+  isLiquid: 0
+  chemicalSymbol: 
+  prefab: {fileID: 7884137719827723931, guid: 851a3c8af58fa394b9cbe40c66e56444, type: 3}
+  sprite: {fileID: 21300000, guid: 0fc4f117d294bf144a81614d8b71cad3, type: 3}
+  rarity: 4
+  weight: 20
+  price: 15
+  stackSize: 100
+  itemCategory: 5
+  resourceNodePrefab: {fileID: 0}

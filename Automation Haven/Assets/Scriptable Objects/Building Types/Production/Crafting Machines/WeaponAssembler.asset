@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa761cc01424194099481c90ece698e, type: 3}
+  m_Name: WeaponAssembler
+  m_EditorClassIdentifier: 
+  nameString: Weapon Assembler
+  width: 2
+  height: 2
+  hasInput: 0
+  hasOutput: 0
+  buildingSprite: {fileID: 21300000, guid: 3abdfc43964a245418e7254782affd31, type: 3}
+  prefab: {fileID: 8575267774070778293, guid: f337ec033d8aaea41a31aab0f3a3580b, type: 3}
+  visual: {fileID: 4775340404875800252, guid: dc730f0ff6eb58d46a9e5578485c9455, type: 3}
+  craftingMachineType: 4
+  hasSpecificInputPoint: 0
+  tierMultiplier: 0
+  range: 0
+  storageData:
+    inventorySlots: 0
+  validBuildingUpgrades:
+  - {fileID: 11400000, guid: 7b026f4037ba1ef44a5452e7eeecead6, type: 2}
+  - {fileID: 11400000, guid: b47e32fef43d782438330abaf168bf8b, type: 2}
+  categoryData:
+    category: 0
+  buildingCostList:
+    requiredResources:
+    - itemSO: {fileID: 11400000, guid: c57dcd724ee117946921962576de5b18, type: 2}
+      amount: 20
+    - itemSO: {fileID: 11400000, guid: 001ac488f04b74e4ab17d8c7517fc46a, type: 2}
+      amount: 10
+    - itemSO: {fileID: 11400000, guid: fd4781b371a54214cae1674c73e65d69, type: 2}
+      amount: 10
+  powerData:
+    powerProduction: 0
+    powerUsage: 20
+    powerStorage: 0
+    productionRate: 0
+    requiredItem: {fileID: 0}
+  resourceGeneratorData:
+    baseSpeedTimerMax: 0
+    resourceDetectionRadius: 0
+    maxResourceAmount: 0
+    mineableNodes: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d342b3d7e335bc4dbf0ffad79ac86e6, type: 3}
+  m_Name: Pistol_1
+  m_EditorClassIdentifier: 
+  nameString: Pistol
+  isLiquid: 0
+  chemicalSymbol: 
+  prefab: {fileID: 5280105813656753744, guid: 6d4fb98f9b351e740be814a5b7a44ad7, type: 3}
+  sprite: {fileID: 21300000, guid: bbf95faad032955489d5ff469f417eed, type: 3}
+  rarity: 8
+  weight: 10
+  price: 10
+  stackSize: 10
+  itemCategory: 0
+  resourceNodePrefab: {fileID: 0}

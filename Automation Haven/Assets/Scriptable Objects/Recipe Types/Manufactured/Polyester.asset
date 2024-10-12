@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac52556c92a96dd4ba72fa165f5f823b, type: 3}
+  m_Name: Polyester
+  m_EditorClassIdentifier: 
+  nameString: 
+  craftingTime: 5
+  craftingMachineType: 3
+  input:
+  - itemSO: {fileID: 11400000, guid: 0f21c670439665d4494b62f366d2aec9, type: 2}
+    amount: 2
+  output:
+  - itemSO: {fileID: 11400000, guid: 36b8578e563e35c44b47aa2bfedcb5f7, type: 2}
+    amount: 1
